@@ -30,8 +30,8 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onResume() {
         super.onResume();
-        SharedPreferences myShared = getSharedPreferences("myPreference", Context.MODE_PRIVATE);
-        String myText = myShared.getString("mySharedText", "still nothing");
+        SharedPreferences myShared = getSharedPreferences(String.valueOf(R.string.myPreferences), Context.MODE_PRIVATE);
+        String myText = myShared.getString(String.valueOf(R.string.mySharedText), "still nothing");
         tv.setText(myText);
     }
 }
