@@ -24,13 +24,22 @@
 
     </com.google.android.material.appbar.AppBarLayout>
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/appBarLayout"
+        app:layout_constraintStart_toStartOf="parent"
+        android:id="@+id/startSecondActivity"
+        android:text="start second activity"
+        android:onClick="startActivity"
+        />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/app_name"
+        app:layout_constraintTop_toBottomOf="@+id/startSecondActivity"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/appBarLayout" />
-
+        android:id="@+id/sharedText"
+        android:text="@string/sharedText"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

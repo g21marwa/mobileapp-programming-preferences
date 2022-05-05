@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Shared Preferences</string>
+    <string name="isWorking">It is working!</string>
+    <string name="sharedText">Nothing</string>
 </resources>
