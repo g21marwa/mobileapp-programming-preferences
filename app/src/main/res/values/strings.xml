@@ -3,6 +3,7 @@
     <string name="isWorking">It is working!</string>
     <string name="sharedText">Nothing</string>
     <string name="mySharedText">mySharedText</string>
+    <string name="mySharedTextValue">This is a text from another world</string>
     <string name="myPreferences">myPreferences</string>
     <string name="startSecondActivity">start second activity</string>
 </resources>
