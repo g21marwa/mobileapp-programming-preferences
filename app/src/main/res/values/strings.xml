@@ -4,4 +4,5 @@
     <string name="sharedText">Nothing</string>
     <string name="mySharedText">mySharedText</string>
     <string name="myPreferences">myPreferences</string>
+    <string name="startSecondActivity">start second activity</string>
 </resources>
