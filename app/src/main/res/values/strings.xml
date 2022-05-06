@@ -6,4 +6,5 @@
     <string name="mySharedTextValue">This is a text from another world</string>
     <string name="myPreferences">myPreferences</string>
     <string name="startSecondActivity">start second activity</string>
+    <string name="setName">setName</string>
 </resources>
