@@ -21,7 +21,5 @@ String myText = myShared.getString(String.valueOf(R.string.mySharedText), "still
 tv.setText(myText);
 ```
 
-![](ss1.png)
-Bild 1
-![](ss2.png)
-bild2
+| ![](ss1.png) | ![img.png](img.png) |
+| Bild 1 | Bild 2 |
