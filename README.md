@@ -9,9 +9,11 @@ sig av när den får fokus igen se bild 2.
 
 Nedan ser vi hur man skapar en ny preferens
 ```
+EditText et = findViewById(R.id.nameInput);
+String name = et.getText().toString();
 SharedPreferences myShared = this.getSharedPreferences(String.valueOf(R.string.myPreferences), Context.MODE_PRIVATE);
 SharedPreferences.Editor editor = myShared.edit();
-editor.putString(String.valueOf(R.string.mySharedText), "it's working");
+editor.putString(String.valueOf(R.string.mySharedText), name);
 editor.apply();
 ```
 
