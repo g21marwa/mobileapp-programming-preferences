@@ -2,8 +2,9 @@
 # Rapport
 
 Programmet ska kunna dela preferencer mellan aktiviteter. När man startar programmet
-ska man se ett ursprunklig text som det står "still nothing" på se bild 1.
-när man startar den andra akivieten så sparas en preferens text som mainaktivitete kan använda 
+ska man se ett ursprunklig text som det står `still nothing` på se bild 1.
+I andra aktiviteten så har vi en EditText där vi kan skriva in ett namn. 
+Texten som skrivs in sparas när vi trycker på knappen `setName`. När vi går tillbaka så kan vi se preferensens värde i mainActivity. 
 sig av när den får fokus igen se bild 2.
 
 Nedan ser vi hur man skapar en ny preferens
