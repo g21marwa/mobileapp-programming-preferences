@@ -21,6 +21,6 @@ String myText = myShared.getString(String.valueOf(R.string.mySharedText), "still
 tv.setText(myText);
 ```
 
-| ![](ss1.png) | ![img.png](img.png) |
+| ![First activity screenshot](ss1.png) | ![second activity screenshot](ss2.png) |
 | ------------ | ------------------- |
 | Bild 1 | Bild 2 |
